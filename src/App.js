@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+      <Route path='/' exact component={MyJourney}/> 
         <Route path='/my-journey' exact component={MyJourney}/> 
         <Route path='/community' exact component={Community}/> 
       </Switch>
