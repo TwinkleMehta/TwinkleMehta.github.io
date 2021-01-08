@@ -1,33 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import MyJourney from './components/pages/MyJourney';
+import Community from './components/pages/Community';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Twinkle Mehta
-        </p>
-        <p>
-          Yup you're in the right place! I'm just not done yet.
-        </p>
-        <p>
-        <code>Site Under Construction</code>
-        </p>
-        {/* <p>
-          Edit <code>src/App.js</code>.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-          </a> */}
-      </header>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/my-journey' exact component={MyJourney}/> 
+        <Route path='/community' exact component={Community}/> 
+      </Switch>
+      </Router>
+    </>
   );
 }
 
