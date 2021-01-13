@@ -20,12 +20,11 @@
   
   .navbar-logo {
     color: #954C4C;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
+    padding: 30px;
+    justify-self: center;
+    margin: auto;
     text-decoration: none;
-    font-size: 2rem;
-    display: flex;
+    font-size: 3rem;
     align-items: center;
   }
   

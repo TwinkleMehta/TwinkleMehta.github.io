@@ -2,8 +2,7 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import MyJourney from './components/pages/MyJourney';
-import Community from './components/pages/Community';
+import MainPage from './components/pages/MainPage';
 
 function App() {
   return (
@@ -11,9 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-      <Route path='/' exact component={MyJourney}/> 
-        <Route path='/my-journey' exact component={MyJourney}/> 
-        <Route path='/community' exact component={Community}/> 
+        <Route path='/' exact component={MainPage}/> 
+        <Route path='/resume' exact prop="/logo192.png"/> 
       </Switch>
       </Router>
     </>
