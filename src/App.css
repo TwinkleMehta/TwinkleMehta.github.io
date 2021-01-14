@@ -4,19 +4,3 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
   }
-  
-  .my-journey,
-  .community {
-    background-image: url('Under-Construction.jpg');
-    background-position: top;
-    background-size: fill;
-    background-repeat: no-repeat;
-    display: flex;
-    height: 90vh;
-    align-items: left;
-    margin-left: 80px;
-    justify-content: left;
-    font-size: 20px;
-    color: #954C4C;
-  }
-  

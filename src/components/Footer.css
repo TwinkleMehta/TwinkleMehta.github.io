@@ -1,0 +1,9 @@
+.made-in-message{
+    color: #343434;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    position: fixed;
+    bottom: 20px;
+}

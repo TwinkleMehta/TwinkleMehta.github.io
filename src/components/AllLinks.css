@@ -1,0 +1,38 @@
+  .link-container {   
+    color: #343434;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a:visited,
+  a:link {   
+    color: #929497;
+    text-decoration: none;
+    justify-self: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a:hover {   
+    color: #954C4C;
+    text-decoration: none;
+    justify-self: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
