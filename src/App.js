@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={MainPage}/> 
-        <Route path='/resume' exact prop="/logo192.png"/> 
       </Switch>
       </Router>
     </>
